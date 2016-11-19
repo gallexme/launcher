@@ -4,3 +4,9 @@ node_modules
 electron/greenworks
 !init_dist/node_modules
 !init_dist/example-mods/notifications-mailer/node_modules
+assets/map/
+db.json
+.screepsrc
+mods.json
+mods.example.json
+example-mods/

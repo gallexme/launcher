@@ -17,6 +17,13 @@
     "electron-rebuild": "electron-rebuild"
   },
   "dependencies": {
+    "@screeps/backend": "git+https://github.com/gallexme/backend-local.git",
+    "@screeps/common": "git+https://github.com/gallexme/common.git",
+    "@screeps/driver": "git+https://github.com/gallexme/driver.git",
+    "@screeps/engine": "git+https://github.com/gallexme/engine.git",
+    "@screeps/pathfinding": "^0.4.16",
+    "@screeps/storage": "git+https://github.com/gallexme/storage.git",
+    "angular": "^1.5.8",
     "commander": "^2.9.0",
     "dnode": "^1.2.2",
     "ini": "^1.3.4",
@@ -25,8 +32,7 @@
     "lodash": "^3.10.1",
     "ncp": "^2.0.0",
     "prompt": "^1.0.0",
-    "q": "^1.4.1",
-    "angular": "^1.5.8"
+    "q": "^1.4.1"
   },
   "devDependencies": {
     "electron": "^1.4.2",
